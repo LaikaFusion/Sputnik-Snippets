@@ -1,7 +1,14 @@
 # Sputnik-Snippets
 My personal VScode snippets
 
+### How to Install
+In VScode:
+1. File -> Preferences -> User Snippets
+2. If you don't have one create a new global snippets file (if you have one use that)
+3. Copy the contents of index.json into the newly opened file
+4. Save and enjoy
 
+# Snippets
 ## Map
 Use: either `.map` or `map`
 Explanation: The difference between the two is one has the `const var = arr` and one does not
