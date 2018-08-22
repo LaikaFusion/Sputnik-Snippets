@@ -1,58 +1,59 @@
+
 "Map Full": {
-		"prefix": "map",
-		"scope": "javascript,typescript,javascriptreact",
-		"body": [
-			"const ${1:mappedArr} = ${2:arr}.map((e,i)=>{",
-				"\treturn ${0:e}",
-			"})"
-		],
-		"description": "Contains varible assignement .map"
-	},
-	"Map Method": {
-		"prefix": ".map",
-		"scope": "javascript,typescript,javascriptreact",
-		"body": [
-			".map((e,i)=>{",
-				"\treturn ${0:e}",
-			"})"
-		],
-		"description": "For use after an array"
-	},
-	"Filter Full": {
-		"prefix": "filter",
-		"scope": "javascript,typescript,javascriptreact",
-		"body": [
-			"const ${1:filteredArr} = ${2:arr}.filter((e,i)=>{",
-				"\treturn ${0:e}",
-			"})"
-		],
-		"description": "Contains varible assignement .filter"
-	},
-	"Filter Method": {
-		"prefix": ".filter",
-		"scope": "javascript,typescript,javascriptreact",
-		"body": [
-			"filter((e,i)=>{",
-				"\treturn ${0:e}",
-			"})"
-		],
-		"description": "For use after an array"
-	},
-	"Console Log Text": {
-		"prefix": "cl",
-		"scope": "javascript,typescript,javascriptreact",
-		"body": [
-			"console.log(${0:`Test`});"
-		],
-		"description": "Adds a quick console log for testing"
-	},
-	"Display Flex Center CSS": {
-		"prefix": "flex center",
-		"scope": "css",
-		"body": [
-			"display: flex;",
-			"justify-content: center;",
-			"align-items: center;"
-		],
-		"description": "centers in a flexbox"
-	},
+	"prefix": "map",
+	"scope": "javascript,typescript,javascriptreact",
+	"body": [
+		"const ${1:mappedArr} = ${2:arr}.map((e,i)=>{",
+			"\treturn ${0:e}",
+		"})"
+	],
+	"description": "Contains varible assignement .map"
+},
+"Map Method": {
+	"prefix": ".map",
+	"scope": "javascript,typescript,javascriptreact",
+	"body": [
+		".map((e,i)=>{",
+			"\treturn ${0:e}",
+		"})"
+	],
+	"description": "For use after an array"
+},
+"Filter Full": {
+	"prefix": "filter",
+	"scope": "javascript,typescript,javascriptreact",
+	"body": [
+		"const ${1:filteredArr} = ${2:arr}.filter((e,i)={",
+			"\treturn ${0:e}",
+		"})"
+	],
+	"description": "Contains varible assignement .filter"
+},
+"Filter Method": {
+	"prefix": ".filter",
+	"scope": "javascript,typescript,javascriptreact",
+	"body": [
+		"filter((e,i)=>{",
+			"\treturn ${0:e}",
+		"})"
+	],
+	"description": "For use after an array"
+},
+"Console Log Text": {
+	"prefix": "cl",
+	"scope": "javascript,typescript,javascriptreact",
+	"body": [
+		"console.log(${0:`Test`});"
+	],
+	"description": "Adds a quick console log for testing"
+},
+"Display Flex Center CSS": {
+	"prefix": "flex center",
+	"scope": "css",
+	"body": [
+		"display: flex;",
+		"justify-content: center;",
+		"align-items: center;"
+	],
+	"description": "centers in a flexbox"
+},
