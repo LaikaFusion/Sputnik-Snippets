@@ -32,7 +32,7 @@
 	"prefix": ".filter",
 	"scope": "javascript,typescript,javascriptreact",
 	"body": [
-		"filter((e,i)=>{",
+		".filter((e,i)=>{",
 			"\treturn ${0:e}",
 		"})"
 	],
