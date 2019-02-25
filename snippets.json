@@ -56,3 +56,11 @@
 	],
 	"description": "centers in a flexbox"
 },
+"JS Random 1 to 10": {
+	"prefix": "ran10",
+	"scope": "javascript,typescript,javascriptreact",
+	"body": [
+		"Math.floor((Math.random() * ${1:10}) ${2:+ 1});"
+	],
+	"description": "By default generates a random Javascript integer between 1 and 10"
+},
